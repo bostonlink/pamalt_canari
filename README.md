@@ -5,6 +5,8 @@ Author: David Bressler (@bostonlink)
 
 ## 1.0 - About
 
+Video Demo: http://www.youtube.com/watch?v=C7u0z6I_EXE
+
 pamalt is a project that integrates the PAN web API to create Maltego transforms. This functionality gives the ability to Information Security Teams and SOCs the ability to graph and create Machines (Maltego Radium) to view the threat landscape of an organization.
 
 * `src/pamalt_canari` directory is where all modules are stored
