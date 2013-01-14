@@ -45,7 +45,7 @@ $ canari install-package pamalt_canari
 Once installed you must edit the pamalt_canari.conf file with the PAN appliance hostname or IP address.
 
 ```bash
-$ vim nwmaltego_canari/nwmaltego_canari.conf
+$ vim pamalt_canari/pamalt_canari.conf
 ```
 Upon running the first transform the package will ask for user credentials to the PAN appliance.  It then creates a cookie for use within the package.  There is no need to store username or password credentials within the configuration file.
 
