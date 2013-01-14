@@ -26,7 +26,7 @@ __all__ = [
     description='Returns PaloAlto top attack alerts within the last 24 hours',
     uuids=[ 'pamalt_canari.v2.paMaltTopAttacksToThreat' ],
     inputs=[ ( 'PaloAlto', topAttacks ) ],
-    debug=True
+    debug=False
 )
 
 def dotransform(request, response):

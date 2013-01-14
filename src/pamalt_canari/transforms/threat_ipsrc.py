@@ -28,7 +28,7 @@ __all__ = [
     description='Returns PaloAlto IP source entities associated with the PaloAlto threat',
     uuids=[ 'pamalt_canari.v2.paMaltThreatToIPsrc' ],
     inputs=[ ( 'PaloAlto', paThreat ) ],
-    debug=True
+    debug=False
 )
 
 def dotransform(request, response):

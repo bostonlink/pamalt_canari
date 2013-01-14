@@ -27,7 +27,7 @@ __all__ = [
     description='Returns IP address entities of the top victims within the last 24 hours',
     uuids=[ 'pamalt_canari.v2.paMaltTopVictimsToIP' ],
     inputs=[ ( 'PaloAlto', topVictims ) ],
-    debug=True
+    debug=False
 )
 
 def dotransform(request, response):
