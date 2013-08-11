@@ -40,12 +40,22 @@ $ python setup.py install
 Then install the canari package by issuing the following:
 
 ```bash
-$ canari install-package pamalt_canari
+$ canari create-profile pamalt_canari
 ```
+Then do the following (thanks to Nadeem Douba @ndouba):
+
+INSTRUCTIONS:
+
+1. Open Maltego.
+2. Click on the home button (Maltego icon, top-left corner).
+3. Click on 'Import'.
+4. Click on 'Import Configuration'.
+5. Follow prompts.
+6. Enjoy!
 Once installed you must edit the pamalt_canari.conf file with the PAN appliance hostname or IP address.
 
 ```bash
-$ vim pamalt_canari/pamalt_canari.conf
+$ vim ~/canari/pamalt_canari.conf
 ```
 Upon running the first transform the package will ask for user credentials to the PAN appliance.  It then creates a cookie for use within the package.  There is no need to store username or password credentials within the configuration file.
 
